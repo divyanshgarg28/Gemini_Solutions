@@ -1,0 +1,39 @@
+div {
+    display: inline-flex;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: rgba(195, 236, 99, 0.529);
+    transition: width 2s;
+  }
+.transition1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(53, 26, 206);
+  transition: width 2s, height 1s;
+}
+.transition2:hover {
+    width: 300px;
+    height: 400px;
+  }
+.transform2D1:hover {
+    transform: rotate(2333deg);
+  }
+.transform2D2:hover {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  .transform3D1:hover{
+      transform: rotateX(150deg);
+      transition-delay: 3s;
+      background-color: bisque;
+  }
+
+  a{
+    padding: 20px;
+    /* border-style: double; */
+    /* border-width: 4px; */
+    margin-top: 20px;
+    border-color: black;
+    display: block;
+    background-color: rgb(34, 230, 83);
+}
